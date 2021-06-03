@@ -9,8 +9,7 @@
 '''
 
 from flask import Flask, render_template,request
-import tkinter as tk
-from tkinter import filedialog as fd
+
 
 application = Flask(__name__)
 

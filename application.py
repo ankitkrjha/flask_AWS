@@ -31,15 +31,15 @@ posts = [
 @application.route('/')
 @application.route('/home')
 def hello_world():
-    return render_template('home.html',posts= posts)
+    return render_template('home.html',posts = posts)
 
 
 @application.route('/about')
 def about():
-    return render_template('about.html', title= 'About')
+    return render_template('about.html', title = 'About')
 
 
-@application.route('/transfer', methods= ["POST", "GET"])
+@application.route('/transfer', methods = ["POST", "GET"])
 def transfer():
     return render_template('transfer.html')
 

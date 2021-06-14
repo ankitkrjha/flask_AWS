@@ -15,16 +15,16 @@ application = Flask(__name__)
 
 posts = [
     {
-        'auhtors': 'Copre',
+        'auhtors': '',
         'title': 'Features',
-        'content': 'asdbjna',
-        'date_posted': 'Aptilsd fdf',
+        'content': '',
+        'date_posted': '',
     },
 {
-        'auhtors': 'Ankit',
+        'auhtors': '',
         'title': 'Application',
-        'content': 'asdbjna 2',
-        'date_posted': 'May 27',
+        'content': '',
+        'date_posted': '',
     }
 ]
 
